@@ -21,6 +21,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "ShortForm"
 include(":app")
-include(":data")
-include(":domain")
+include(":core")
+include(":feature")
+include(":core:data")
+include(":core:domain")
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")

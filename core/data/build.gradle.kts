@@ -41,5 +41,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    api(projects.domain)
+    api(projects.core.domain)
 }
